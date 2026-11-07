@@ -1,0 +1,75 @@
+{
+  "multi_agent_system": {
+    "target": 4,
+    "actual": 4,
+    "orchestrator": "LangGraph StateGraph",
+    "agents": [
+      "Product Discovery Agent",
+      "Recommendation Agent",
+      "Cart Management Agent",
+      "Order Management Agent"
+    ],
+    "passed": true
+  },
+  "product_dataset": {
+    "target": 5000,
+    "actual": 5200,
+    "category_count": 4,
+    "passed": true
+  },
+  "rag_retrieval": {
+    "target_precision_at_5": 90.0,
+    "actual_precision_at_5": 95.0,
+    "actual_precision_at_3": 95.0,
+    "actual_precision_at_1": 95.0,
+    "mean_reciprocal_rank": 0.95,
+    "total_queries_evaluated": 20,
+    "passed": true
+  },
+  "interaction_reduction": {
+    "target_reduction": 60.0,
+    "actual_reduction": 73.33,
+    "task_benchmarks": [
+      {
+        "task": "Find noise-cancelling wireless headphones under $150, compare top 2, and add winner to cart",
+        "manual_interactions": 18,
+        "ai_interactions": 3,
+        "reduction_percentage": 83.33
+      },
+      {
+        "task": "Find running shoes under $100 in stock, check size and add to cart",
+        "manual_interactions": 10,
+        "ai_interactions": 3,
+        "reduction_percentage": 70.0
+      },
+      {
+        "task": "Check status of previous order and view delivery tracking timeline",
+        "manual_interactions": 6,
+        "ai_interactions": 2,
+        "reduction_percentage": 66.67
+      }
+    ],
+    "passed": true
+  },
+  "api_latency": {
+    "target_ms": 300.0,
+    "mean_ms": 23.27,
+    "median_p50_ms": 2.9,
+    "p95_ms": 111.61,
+    "min_ms": 0.41,
+    "max_ms": 132.7,
+    "llm_agent_endpoint_latency_ms": 99.79,
+    "passed": true
+  },
+  "unit_tests": {
+    "target": 30,
+    "actual": 41,
+    "passing_rate": "100%",
+    "passed": true
+  },
+  "overall_evaluation": {
+    "all_objectives_met": true,
+    "timestamp": "2026-11-07 09:47:37 UTC",
+    "environment": "FastAPI + SQLAlchemy + SQLite/PostgreSQL + LangGraph + TF-IDF RAG"
+  }
+}
