@@ -122,9 +122,6 @@ To launch the complete platform (PostgreSQL with pgvector, Redis, Spring Boot ba
 git clone https://github.com/harsharaju1314-hash/AI-Powered-E-Commerce-Shopping-Assistant.git
 cd AI-Powered-E-Commerce-Shopping-Assistant
 
-# Copy environment variables
-cp .env.example .env
-
 # Build and start all services
 docker compose up -d --build
 ```

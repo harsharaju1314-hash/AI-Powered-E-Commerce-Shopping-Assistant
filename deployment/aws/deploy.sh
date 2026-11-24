@@ -25,8 +25,7 @@ git pull origin main
 
 # Check .env file
 if [ ! -f ".env" ]; then
-    echo "[WARN] .env not found. Creating from .env.example..."
-    cp .env.example .env
+    echo "[WARN] .env not found. Please ensure environment variables are configured."
 fi
 
 echo "[INFO] Building and starting all Docker Compose services..."
