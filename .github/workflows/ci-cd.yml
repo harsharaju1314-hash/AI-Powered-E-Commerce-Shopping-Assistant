@@ -83,16 +83,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: frontend/package.json
 
       - name: Install Frontend Dependencies
         working-directory: frontend
-        run: npm ci
+        run: npm install
 
       - name: Build Angular Production Distribution
         working-directory: frontend
-        run: npm run build -- --configuration production
+        run: npm run build
 
   # ==============================================================================
   # Job 3: RAG Retrieval Relevance & Multi-Agent Evaluation
