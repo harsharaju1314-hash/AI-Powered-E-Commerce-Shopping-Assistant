@@ -1,0 +1,82 @@
+[
+  {
+    "query_id": "Q001",
+    "query": "Wireless noise-canceling headphones for long flights",
+    "target_category": "Electronics",
+    "category_id": 1,
+    "max_price": 300.0,
+    "min_rating": 4.0,
+    "relevant_product_keywords": ["headphones", "audio", "aurasound", "wireless", "cancelling"],
+    "expected_top_sku": "SKU-AUDIO-001"
+  },
+  {
+    "query_id": "Q002",
+    "query": "Ergonomic mechanical keyboard with RGB backlighting for coding",
+    "target_category": "Electronics",
+    "category_id": 1,
+    "max_price": 180.0,
+    "min_rating": 3.8,
+    "relevant_product_keywords": ["keyboard", "mechanical", "novatech", "rgb", "ergonomic"],
+    "expected_top_sku": "SKU-KEY-002"
+  },
+  {
+    "query_id": "Q003",
+    "query": "Breathable athletic running shoes for marathon training",
+    "target_category": "Apparel",
+    "category_id": 2,
+    "max_price": 150.0,
+    "min_rating": 4.0,
+    "relevant_product_keywords": ["shoes", "running", "apexstyles", "athletic", "breathable"],
+    "expected_top_sku": "SKU-SHOE-003"
+  },
+  {
+    "query_id": "Q004",
+    "query": "Thermal weatherproof winter jacket parka waterproof",
+    "target_category": "Apparel",
+    "category_id": 2,
+    "max_price": 250.0,
+    "min_rating": 4.0,
+    "relevant_product_keywords": ["parka", "jacket", "thermal", "winter", "weatherproof"],
+    "expected_top_sku": "SKU-JACKET-004"
+  },
+  {
+    "query_id": "Q005",
+    "query": "Stainless drip coffee maker with programmable 24hr timer",
+    "target_category": "Home",
+    "category_id": 3,
+    "max_price": 160.0,
+    "min_rating": 3.9,
+    "relevant_product_keywords": ["coffee", "brewer", "omnihome", "drip", "maker"],
+    "expected_top_sku": "SKU-COFFEE-005"
+  },
+  {
+    "query_id": "Q006",
+    "query": "Autonomous robotic smart floor vacuum cleaner lidar navigation",
+    "target_category": "Home",
+    "category_id": 3,
+    "max_price": 400.0,
+    "min_rating": 4.0,
+    "relevant_product_keywords": ["cleaner", "vacuum", "floor", "robotic", "smart"],
+    "expected_top_sku": "SKU-VACUUM-006"
+  },
+  {
+    "query_id": "Q007",
+    "query": "Fitness tracking smartwatch with heart rate monitor AMOLED display",
+    "target_category": "Wearables",
+    "category_id": 4,
+    "max_price": 300.0,
+    "min_rating": 4.0,
+    "relevant_product_keywords": ["smartwatch", "fitness", "chronostech", "amoled", "tracking"],
+    "expected_top_sku": "SKU-WATCH-007"
+  },
+  {
+    "query_id": "Q008",
+    "query": "Water-resistant commuter laptop backpack with padded compartment",
+    "target_category": "Wearables",
+    "category_id": 4,
+    "max_price": 120.0,
+    "min_rating": 4.0,
+    "relevant_product_keywords": ["backpack", "commuter", "venturegear", "laptop", "water-resistant"],
+    "expected_top_sku": "SKU-PACK-008"
+  }
+]
